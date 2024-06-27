@@ -386,7 +386,8 @@ main {
     max-width: 80%;
     margin: 23px auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, 355px);
+    justify-content: center;
     gap: 23px;
 }
 
@@ -401,7 +402,7 @@ main {
 
 .blog .blog-news .news img {
     height: 300px;
-    width: 392px;
+    width: 350px;
     margin: auto;
     border-radius: 10px;
 }
